@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Servws",
+		"leaderName": "Ace",
+		"adjective": ["Impiarial"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "It has been revealed that this land has many valuable resources to the empire, and that there might be enemies of the hiding here. Commander, you are to investigate, claim the resources for the empire and, if enemies are to be found, destroy them.",
+		"startIntroPart2": "Do not fail me, General. You have been chosen personally to lead an occupation of this planet, and I will be overseeing your progress. Failure will not be tolerated.",					
+		
+		"declaringWar": "Your lack of foresight will be your demise.",
+		"attacked": "I will show you the power of the Dark Side.",
+		"defeated": "Nooooooo",
+		"introduction": "...",
+		"neutralHello": "...Speak",		
+		"neutralLetsHearIt": "An offer?",
+		"neutralNo": "No.",
+		"neutralYes": "It is...Acceptable.",
+		"hateHello": "I am surprised you still live.",	
+		"hateLetsHearIt": "...Speak Fast.",
+		"hateNo": "No",
+		"hateYes": "It is...Acceptable.",
+		"afterPeace": "Enjoy your order, for now...",
+		"tradeRequest": "It would not be wise to enrage my master.",
+		
+		"outerColor": [245,245,245],
+		"innerColor": [10,10,10],
+		"uniqueName": "Altering the deal",
+		"uniques": ["Science gained from research agreements [+100]%",
+		"[+1 Science] from every [Mine]",
+		"[+1 Production] from every [Iron]",
+		"[+1 Culture] from every [Aluminum]",
+    "Starts with [Giant Death Robot]",
+    "Recruit a Enemy unit <with [100]% chance>",
+    "May choose [2] additional belief(s) of any type when [founding] a religion",
+    "[+25]% Production when constructing [All] buildings [in all cities]",
+    "Pastures yield additional 1 Food and 1 Culture. Earn [150]% of [Land] opponent's [Strength] as [Gold] for kills",
+			   "Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
+			   "-[50]% [Melee] unit maintenance costs","[Military] units gain [25]% more Experience from combat",
+			   "[-10]% Culture cost of adopting new Policies",
+               "\"Borrows\" city names from other civilizations in the game"]
+		"cities": ["Aboram"]
+	}
+]
