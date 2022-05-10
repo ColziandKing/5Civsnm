@@ -4,37 +4,37 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/EpirusA
+BuildingIcons/Haggarat
   rotate: false
-  xy: 4, 772
+  xy: 829, 72
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Free Worker (Ability)
+BuildingIcons/Torchtower
   rotate: false
-  xy: 4, 772
+  xy: 826, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Food Bonus
+BuildingIcons/Grand Arena
   rotate: false
-  xy: 1036, 1804
+  xy: 773, 540
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Frankincense
+BuildingIcons/Molding House
   rotate: false
-  xy: 4, 564
+  xy: 797, 338
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Myrrh
+BuildingIcons/Curriculum Education
   rotate: false
-  xy: 4, 564
+  xy: 773, 714
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
