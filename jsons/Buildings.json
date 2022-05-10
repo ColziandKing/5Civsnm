@@ -1,0 +1,63 @@
+[
+  {
+		"name": "Haggarat",
+		"replaces": "Temple",
+		"uniqueTo": "Umiratie Dynasty", 
+		"maintenance": 5,
+		"culture": 3,
+		"science": 2,
+    "faith": 2,
+		"specialistSlots": {"Scientist": 1},
+    "specialistSlots": {"Prophet": 1},
+		"cost":320,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Monument"
+		"requiredTech": "Construction"
+	},
+  {
+		"name": "Torchtower",
+		"cost": 90,
+    	"replaces": "Lighthouse",
+		"uniqueTo": "Eisnia Archipelago", 
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+2 Food] from [Coast] tiles [in this city]", "[+2 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
+  {
+		"name": "Grand Arena",
+		"maintenance": 2,
+		"happiness": 3,
+    "replaces": "Colosseum",
+		"uniqueTo": "Azibhania Empire", 
+    "greatPersonPoints": {"Great General": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+  {
+		"name": "Molding House",
+		"maintenance": 1,
+    "replaces": "Forge",
+		"uniqueTo": "Chediluen", 
+    "production": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+25]% Production when constructing [Spaceship part] units [in this city]",
+			"[+25]% Production when constructing [Land] units [in this city]",
+			"[+2 Production] from [Iron] tiles [in this city]"]
+	},
+ {
+		"name": "Curriculum Education",
+		"science": 5,
+   "replaces": "Public School",
+		"uniqueTo": "Ziandestria", 
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 6,
+		"hurryCostModifier": 0,
+		"uniques": ["[+5 Science] per [3] population [in this city]"],
+		"requiredTech": "Scientific Theory"
+	}
+  ]
