@@ -39,37 +39,37 @@ BuildingIcons/Myrrh
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Phoenician
+NationIcons/Ziandestria
   rotate: false
-  xy: 4, 40
+  xy: 358, 537
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Scythia
+NationIcons/Umiratie Dynasty
   rotate: false
-  xy: 1044, 1596
+  xy: 198, 516
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Sumer
+NationIcons/Azibhania Empire
   rotate: false
-  xy: 420, 556
+  xy: 454, 683
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/The Hittites
+NationIcons/Eisnia Archipelago
   rotate: false
-  xy: 1868, 1904
+  xy: 636, 721
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-  NationIcons/Israeli
+  NationIcons/Chediluen
   rotate: false
-  xy: 212, 980
+  xy: 357, 535
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
