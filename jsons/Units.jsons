@@ -1,10 +1,30 @@
 [
 {
-		"name": "Warrior",
+		"name": "Eisnian Fighter",
 		"unitType": "Sword",
+		"uniqueTo": "Eisnia Archipelago",
+		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
+		"promotions": ["Haka War Dance","Amphibious"],
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},"Ignore terrain cost"
+  {
+		"name": "Militia",
+		"unitType": "Sword",
+		"uniqueTo": "Azibhania Empire",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"promotions": ["[Jaguar] ability","Woodsman"],
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
@@ -14,34 +34,26 @@
 		]
 	},
   {
-		"name": "Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
-		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
-	},
-  {
-		"name": "Archer",
+		"name": "Spiker",
 		"unitType": "Archery",
+		"uniqueTo": "Inca",
+		"replaces": "Archer",
 		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 7,
-		"cost": 40,
+		"strength": 7,
+		"rangedStrength": 9,
+		"cost": 50,
 		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
+		"obsoleteTech": "Construction","Ignore terrain cost"
+		"upgradesTo": "Crossbowman",
+		"promotions": ["Ignore terrain cost","Slinger Withdraw"],
 		"attackSound": "arrow"
 	},
   {
 		"name": "Crossbowman",
 		"unitType": "Archery",
+		"uniqueTo": "Carthage",
+		"replaces": "Crossbowman",
+		"range": 2,
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
@@ -49,17 +61,21 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
+		"promotions": ["Logistics","Extended Range"],
 		"attackSound": "arrow"
 	},
   {
 		"name": "Knight",
 		"unitType": "Mounted",
+		"uniqueTo": "Carthage",
+		"replaces": "Knight",
 		"movement": 4,
-		"strength": 20,
-		"cost": 120,
+		"strength": 25,
+		"cost": 125,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
+		"promotions": ["Great Generals I","[+15]% Strength <vs cities>","Quick Study"],
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
@@ -67,53 +83,78 @@
   {
 		"name": "Lancer",
 		"unitType": "Mounted",
+		"uniqueTo": "Carthage",
+		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
-		"promotions": ["Formation I"],
+		"promotions": ["Formation I","Great Generals II","[Sipahi] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
   {
-		"name": "Privateer",
+		"name": "Wave Basher",
 		"unitType": "Melee Water",
+		"uniqueTo": "Carthage",
+		"replaces": "Privateer",
 		"movement": 5,
 		"strength": 25,
-		"cost": 150,
+		"cost": 160,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I"],
+		"promotions": ["Coastal Raider I","Coastal Raider II", "Supply"],
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
 	},
   {
 		"name": "Frigate",
 		"unitType": "Ranged Water",
+		"uniqueTo": "Carthage",
+		"replaces": "Frigate",
 		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 28,
-		"cost": 185,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 200,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
+		"uniques": ["[+1] Sight"],
+		"promotions": ["Mobility"]
 		"attackSound": "cannon"
 	},
   {
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
+		"uniqueTo": "Carthage",
+		"replaces": "Rifleman",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
+		"promotions": ["[Norwegian Ski Infantry] ability","March"],
 		"attackSound": "shot"
 	},
-  
-  wave basher
+	{
+		"name": "Piercer",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Greece",
+		"movement": 2,
+		"strength": 13,
+		"cost": 76,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions":["[Persian Immortal] ability","Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"attackSound": "metalhit"
+	}
+]
