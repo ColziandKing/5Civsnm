@@ -111,7 +111,7 @@
 		"attackSound": "cannon"
 	},
   {
-		"name": "Frigate",
+		"name": "Voyager",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Carthage",
 		"replaces": "Frigate",
@@ -143,7 +143,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Piercer",
+		"name": "Spike Bearer",
 		"unitType": "Sword",
 		"replaces": "Spearman",
 		"uniqueTo": "Greece",
