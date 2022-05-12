@@ -36,7 +36,7 @@
   {
 		"name": "Spiker",
 		"unitType": "Archery",
-		"uniqueTo": "Inca",
+		"uniqueTo": "Umiratie Dynasty",
 		"replaces": "Archer",
 		"movement": 2,
 		"strength": 7,
@@ -49,13 +49,13 @@
 		"attackSound": "arrow"
 	},
   {
-		"name": "Crossbowman",
+		"name": "Shooting Stars",
 		"unitType": "Archery",
-		"uniqueTo": "Carthage",
+		"uniqueTo": "Ziandestria",
 		"replaces": "Crossbowman",
 		"range": 2,
 		"movement": 2,
-		"strength": 13,
+		"strength": 14,
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Machinery",
@@ -65,9 +65,9 @@
 		"attackSound": "arrow"
 	},
   {
-		"name": "Knight",
+		"name": "Knium",
 		"unitType": "Mounted",
-		"uniqueTo": "Carthage",
+		"uniqueTo": "Chediluen",
 		"replaces": "Knight",
 		"movement": 4,
 		"strength": 25,
@@ -81,10 +81,10 @@
 		"attackSound": "horse"
 	},
   {
-		"name": "Lancer",
+		"name": "Exeler",
 		"unitType": "Mounted",
-		"uniqueTo": "Carthage",
-		"replaces": "Horseman",
+		"uniqueTo": "Chediluen",
+		"replaces": "Lancer",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
@@ -99,7 +99,7 @@
   {
 		"name": "Wave Basher",
 		"unitType": "Melee Water",
-		"uniqueTo": "Carthage",
+		"uniqueTo": "Eisnia Archipelago",
 		"replaces": "Privateer",
 		"movement": 5,
 		"strength": 25,
@@ -113,7 +113,7 @@
   {
 		"name": "Voyager",
 		"unitType": "Ranged Water",
-		"uniqueTo": "Carthage",
+		"uniqueTo": "Ziandestria",
 		"replaces": "Frigate",
 		"movement": 5,
 		"strength": 30,
@@ -129,9 +129,9 @@
 		"attackSound": "cannon"
 	},
   {
-		"name": "Rifleman",
+		"name": "Gun Militia",
 		"unitType": "Gunpowder",
-		"uniqueTo": "Carthage",
+		"uniqueTo": "Azibhania Empire",
 		"replaces": "Rifleman",
 		"movement": 2,
 		"strength": 34,
@@ -146,7 +146,7 @@
 		"name": "Spike Bearer",
 		"unitType": "Sword",
 		"replaces": "Spearman",
-		"uniqueTo": "Greece",
+		"uniqueTo": "Umiratie Dynasty",
 		"movement": 2,
 		"strength": 13,
 		"cost": 76,
