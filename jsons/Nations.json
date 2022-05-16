@@ -204,8 +204,6 @@
 			"Double Happiness from Natural Wonders", "Tile yields from Natural Wonders doubled",
 			   "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
 			"No movement cost to pillage <for [Melee] units>",
-			   "Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			"Units ignore terrain costs when moving into any tile with Mountain",
 			   "[-50]% Culture cost of natural border growth [in all cities]","+[15]% combat bonus for units fighting in [Friendly Land]",
 			   "[+50]% [Culture] [in all cities] <during a Golden Age>","[Great Artist] is earned [50]% faster <during a Golden Age>",
 			   "Receive a free [Great General] when you discover [Horseback Riding]",
