@@ -98,8 +98,8 @@
 		"innerColor": [10,10,10],
 		"uniqueName": "Domination & Submission",
 		"uniques": ["Receive free [Great Engineer] when you discover [Engineering]","[+2 Production] from every [Mountain]",
-			   "[-50]% maintenance costs <for [Melee] units>","[Military] units gain [25]% more Experience from combat",
-			   "[+3 Production] from every [Strategic resource]","[+20]% Production when constructing [All] wonders [in all cities]"]
+			   "[-50]% maintenance costs <for [Melee] units>","[Military] units gain [25]% more Experience from combat","[+2] Movement <for [Water] units>",
+			   "Units fight as though they were at full strength even when damaged","[+1 Culture] from every [Fishing Boats]","[+2 Culture] from every [Atoll]"]
 		"cities": ["Azibhania Fortspance","Uemsphire Citadel","Ravimines Deposit"]
 	},
 	{
