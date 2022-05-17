@@ -110,6 +110,7 @@
 		"adjective": ["Eisnians"],
 		"startBias": ["Coast","Avoid [Tundra]","Avoid [Desert]","Avoid [Marsh]"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
 		
 		"startIntroPart1": "Alohai, chieftess of our tropical world. Your father fought well so all of our people can be united, in the process your brother who was next in line died. Grace in your beauty and wisdom, you were able to lead and unite all until the World War.",
 		"startIntroPart2": "Continue to lead us even in the future, alohai!",					
