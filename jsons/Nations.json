@@ -5,6 +5,7 @@
 		"adjective": ["Ziandestrians"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Judaism",
 		
 		"startIntroPart1": "Hailing from Ziandestria, A nation realm with its advance foundations. You O' president, must lead people to the future with science. Remember that the past builds the future.",
 		"startIntroPart2": "For science and love, make haste Man of Discovery. Fulfill!",					
@@ -40,6 +41,7 @@
 		"adjective": ["Naisamtalts"],
 		"startBias": ["Oasis","Desert","Avoid [Jungle]","Avoid [Forest]"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Islam",
 		
 		"startIntroPart1": "Haggarat, U' Umiratie dee 50th. Hayvhing Imsovturei affer dheating zee Andtos en zheir knatdom, yu rhavge em en nhow yur ulhe Caravansary Company o zupplis.",
 		//Ziggurat/high, O' Umiratie the 50th. Becoming/Having sovereignity/ruler afther defeating the band of organized raiders from an enemy kingdom, you ravaged everthing they have and their city became under your dominion to what is now your trading hub of supplies
