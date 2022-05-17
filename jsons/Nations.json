@@ -38,7 +38,7 @@
 		"name": "Umiratie Dynasty",
 		"leaderName": "Caloriosum Umiratie",
 		"adjective": ["Naisamtalts"],
-		"startBias": ["Avoid [Tundra]","Avoid [Desert]","Avoid [Marsh]"],
+		"startBias": ["Oasis","Desert","Avoid [Jungle]","Avoid [Forest]"],
 		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "Haggarat, U' Umiratie dee 50th. Hayvhing Imsovturei affer dheating zee Andtos en zheir knatdom, yu rhavge em en nhow yur ulhe Caravansary Company o zupplis.",
@@ -104,13 +104,13 @@
 	},
 	{
 		"name": "Eisnia Archipelago",
-		"leaderName": "Eula Tempest",
-		"adjective": ["Tempresa"],
-		"startBias": ["Oasis","Desert","Avoid [Jungle]","Avoid [Forest]"],
+		"leaderName": "Eisnia Haitenua",
+		"adjective": ["Eisnians"],
+		"startBias": ["Coast","Avoid [Tundra]","Avoid [Desert]","Avoid [Marsh]"],
 		"preferredVictoryType": "Diplomatic",
 		
-		"startIntroPart1": "Hailing from Divinestria, O' wonderful leader. One of the royal noble Pureheart council.",
-		"startIntroPart2": "Ilumara, lead the nationn for Divinestria.",					
+		"startIntroPart1": "Alohai, chieftess of our tropical world. Your father fought well so all of our people can be united, in the process your brother who was next in line died. Grace in your beauty and wisdom, you were able to lead and unite all until the World War.",
+		"startIntroPart2": "Continue to lead us even in the future, alohai!",					
 		
 		"declaringWar": "It appears there are many who want you dead, and so you will be.",
 		"attacked": "No one attacks and lives.",
@@ -129,7 +129,7 @@
 		
 		"outerColor": [255,255,0],
 		"innerColor": [255,128,0], 
-		"uniqueName": "Republic Freedom",
+		"uniqueName": "Expedition Alliance",
 		"uniques": ["Receive a free [Great Merchant] when you discover [Currency]","[+2 Gold] from every [Mountain]",
 			   "Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>", "[+10]% Strength <within [2] tiles of a [Moai]>",
 			   "Retain [50]% of the happiness from a luxury after the last copy has been traded away",
@@ -140,13 +140,13 @@
 		"name": "Chediluen",
 		"leaderName": "Hollena Planeta",
 		"adjective": ["Chedis"],
-		"startBias": ["Coast","Grassland","Avoid [Tundra]"],
+		"startBias": ["Grassland","Avoid [Tundra]"],
 		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "Hailing from Divinestria, O' wonderful leader. One of the royal noble Pureheart council.",
 		"startIntroPart2": "Ilumara, lead the nationn for Divinestria.",					
 		
-		"declaringWar": "It appears there are many who want you dead, and so you will be.",
+		"declaringWar": "You are endangering our archipelago, we will put a stop to you!",
 		"attacked": "No one attacks and lives.",
 		"defeated": "Fool! At least with me the underworld was under control, but soon one worse than me shall rise.",
 		"introduction": "If there's money to be made, we will get it.",
@@ -163,7 +163,7 @@
 		
 		"outerColor": [245,245,245],
 		"innerColor": [238,0,0],
-		"uniqueName": "Expedition Alliance",
+		"uniqueName": "Republic Freedom",
 		"uniques": ["Receive a free [Great Prophet] when you discover [Theology]","[+2 Food] from every [Mountain]",
 			   "May choose [1] additional belief(s) of any type when [founding] a religion",
 			   "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
