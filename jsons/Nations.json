@@ -33,7 +33,8 @@
 			   "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 			   "[-10]% Culture cost of natural border growth [in all cities]","+[15]% combat bonus for units fighting in [Friendly Land]"],
 		
-		"cities": ["Ziandestria","Kenth","Ilumaran Irath","Giraceus","Fleyjanite Angnariant","Estria-Ziand","Thertral","Sunianoonaries","Arigamoto","Fyangh"]
+		"cities": ["Ziandestria","Kenth","Ilumaran Irath","Giraceus","Fleyjanite Angnariant","Estria-Ziand","Thertral","Sunianoonaries","Arigamoto","Fyangh",
+			  "Divinestria","Central Heart","Ilumara Ira","Gira","Fleyja Angnara"]
 	},
 	{
 		"name": "Umiratie Dynasty",
@@ -122,13 +123,13 @@
 		"neutralHello": "How you?",		
 		"neutralLetsHearIt": "You have a gift?",
 		"neutralNo": "I don't think it benefits us.",
-		"neutralYes": "You know how to do business",
+		"neutralYes": "You know how to do a fine trade",
 		"hateHello": "How you!",	
-		"hateLetsHearIt": "You are hard to kill.",
+		"hateLetsHearIt": "You are difficult.",
 		"hateNo": "I could have you hung for that.",
-		"hateYes": "You know how to do business.",
-		"afterPeace": "This is not peace, but a pause",
-		"tradeRequest": "My latest batch of shipments has arrived.",
+		"hateYes": "...",
+		"afterPeace": "Hope that both of our lands flourishes once more",
+		"tradeRequest": "I may have something exotic.",
 		
 		"outerColor": [255,255,0],
 		"innerColor": [255,128,0], 
@@ -137,7 +138,7 @@
 			   "Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>", "[+10]% Strength <within [2] tiles of a [Moai]>",
 			   "Retain [50]% of the happiness from a luxury after the last copy has been traded away",
 			   "[Land] units gain the [Amphibious] promotion", "Defense bonus when embarked <for [All] units>"],
-		"cities": ["Divinestria","Central Heart","Ilumara Ira","Gira","Fleyja Angnara"]
+		"cities": ["Mukhakhatii","Gulalamaneia","Aweihura","Shire of Haitenua"]
 	},
 	{
 		"name": "Chediluen",
@@ -149,16 +150,16 @@
 		"startIntroPart1": "Hailing from Divinestria, O' wonderful leader. One of the royal noble Pureheart council.",
 		"startIntroPart2": "Ilumara, lead the nationn for Divinestria.",					
 		
-		"declaringWar": "",
-		"attacked": "No one attacks and lives.",
-		"defeated": "Fool! At least with me the underworld was under control, but soon one worse than me shall rise.",
-		"introduction": "If there's money to be made, we will get it.",
-		"neutralHello": "Come to me with a deal?",		
-		"neutralLetsHearIt": "You have an offer?",
-		"neutralNo": "I could have you hung for that.",
-		"neutralYes": "You know how to do business",
-		"hateHello": "What?",
-		"tradeRequest": "My latest batch of shipments has arrived.",
+		"declaringWar": "Hopefully news about you becoming ours will be widespread",
+		"attacked": "Your making this an issue.",
+		"defeated": "Fool! Azibhania will avenge us.",
+		"introduction": "How are you this day, we are glad to meet you, have you met our friends?",
+		"neutralHello": "Your fine this day, eh?",		
+		"neutralLetsHearIt": "Your showing us something nice?",
+		"neutralNo": "I sorry but I accept.",
+		"neutralYes": "You know how to do friendly negotiations",
+		"hateHello": "Definitely not approved!",
+		"tradeRequest": "My wonderful treatments are here.",
 		
 		"outerColor": [245,245,245],
 		"innerColor": [238,0,0],
@@ -167,6 +168,6 @@
 			   "May choose [1] additional belief(s) of any type when [founding] a religion",
 			   "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
 			   "Damage is ignored when determining unit Strength <for [non-air] units>"]
-		"cities": ["Hopiia","Lantennant"]
+		"cities": ["Hopiia","Lantennant","Opolisia","Nagur Slopes","Lierharp"]
 	}
 ]
